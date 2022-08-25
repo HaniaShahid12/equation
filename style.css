@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    /* 1rem = 16px */
+    /* 3*16 = 48px */
+    margin-left: 2rem;
+}
+
+
+.main-nav {
+    height: 100%;
+    
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    margin-right: 2rem;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.list-item {
+    margin-left: 2rem;
+   
+}
+
+
+.list-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 6px;
+   
+}
+
+.list-item:hover {
+    background: rgb(19, 89, 159);
+    height: 100%;
+   
+}
+.btn-submit{
+    border-radius: 4px;
+    color: blue;
+   margin-left: 2rem;
+}
+.btn-submit:hover{
+    background: rgb(221, 224, 25);
+}
+
+
